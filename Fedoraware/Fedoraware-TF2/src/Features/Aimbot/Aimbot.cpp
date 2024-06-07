@@ -1,4 +1,5 @@
 //welcome to fedoraware!
+//aimboat
 #include "Aimbot.h"
 #include "../Vars.h"
 
