@@ -166,7 +166,7 @@ void CMenu::DrawTabbar()
 	{
 		ImGui::PushStyleColor(ImGuiCol_Button, ImGui::ColorToVec(Vars::Menu::Colors::TabBar.Value));
 		ImGui::PushStyleColor(ImGuiCol_Text, ImGui::ColorToImGui(Vars::Menu::Colors::Text.Value).Value);
-		if (ImGui::TabButton("Aimbot", CurrentTab == MenuTab::Aimbot))
+		if (ImGui::TabButton("Aimboat", CurrentTab == MenuTab::Aimbot))
 		{
 			CurrentTab = MenuTab::Aimbot;
 		}
